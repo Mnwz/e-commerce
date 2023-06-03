@@ -1,0 +1,74 @@
+{
+  "games": [
+    {
+      "title": "Hunt Showdown",
+      "description": "Hunt: Showdown é um jogo de tiro em primeira pessoa PvPvE emocionante e de alto risco. Derrote monstros assustadores enquanto luta pelas recompensas que lhe trarão glória, equipamento e ouro nesta experiência multijogador online implacável e inesquecível.",
+      "price": "35.90",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/594650/header.jpg?t=1683616324",
+      "id": 1
+    },
+    {
+      "title": "Metro exodus",
+      "description": "Escape das ruínas do metrô de Moscou e embarque em uma jornada incrível pela Rússia pós-apocalíptica. Explore mapas não lineares enormes, sinta toda a experiência e imersão de um jogo de sobrevivência de mundo aberto. Descubra uma história emocionante que dura um ano inteiro na maior aventura no universo Metro de todos os tempos.",
+      "price": "56.00",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/header.jpg?t=1669390585",
+      "id": 2
+    },
+    {
+      "title": "Red dead redemption 2",
+      "description": "Red Dead Redemption 2, a épica aventura de mundo aberto da Rockstar Games aclamada pela crítica e o jogo mais bem avaliado desta geração de consoles, agora chega aprimorado para PC com conteúdos inéditos no Modo História, melhorias visuais e muito mais.",
+      "price": "98.96",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg?t=1671485009",
+      "id": 3
+    },
+    {
+      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "description": "Jogo do Ano - The Game Awards 2019 Melhor Jogo de Ação de 2019 - IGN Trilhe seu próprio caminho de vingança nesta premiada aventura da FromSoftware, os criadores de Bloodborne e da franquia Dark Souls. Obtenha vingança. Retome sua honra. Mate astuciosamente. ",
+      "price": "199.90",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg?t=1678991267",
+      "id": 4
+    },
+    {
+      "title": "Street Fighter™ 6",
+      "description": "Aí vem o mais novo desafiante da Capcom! Street Fighter™ 6 será lançado no mundo inteiro em 2 de junho de 2023 e representa a próxima evolução da série Street Fighter™! Street Fighter 6 engloba três modos de jogo distintos, incluindo World Tour, Fighting Ground e Battle Hub.",
+      "price": "249.00",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1364780/header.jpg?t=1685680525",
+      "id": 5
+    },
+    {
+      "title": "Destiny 2",
+      "description": "Destiny 2 é um MMO de ação com um mundo único em evolução, que se pode jogar a qualquer hora e em qualquer lugar com os amigos, inteiramente de graça.",
+      "price": "00.00",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/header_brazilian.jpg?t=1684966156",
+      "id": 6
+    },
+    {
+      "title": "Call of Duty®: Modern Warfare® II",
+      "description": "O Call of Duty®: Modern Warfare® II coloca os jogadores dentro de um conflito global sem precedentes que conta com o retorno dos Operadores icônicos da Força-Tarefa 141.",
+      "price": "164.94",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/header_alt_assets_3_brazilian.jpg?t=1684446457",
+      "id": 7
+    },
+    {
+      "title": "ELDEN RING",
+      "description": "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
+      "price": "249.90",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg?t=1683618443",
+      "id": 8
+    },
+    {
+      "title": "EA SPORTS™ FIFA 23",
+      "description": "FIFA 23 traz o Jogo de Todo Mundo aos gramados com a tecnologia HyperMotion2, a FIFA World Cup™ masculina e feminina (lançamento durante a temporada), times femininos, recursos de crossplay* e muito mais.",
+      "price": "299.00",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1811260/header.jpg?t=1682117049",
+      "id": 9
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "description": "Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).",
+      "price": "38.63",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1678296348",
+      "id": 10
+    }
+  ]
+}
