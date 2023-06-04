@@ -8,10 +8,11 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="slide.css">
     <title>E-commerce</title>
 </head>
 <body>
-    <nav class="flex justify-center items-center w-full fixed">
+    <nav class="flex justify-center items-center w-full">
         <div class="flex justify-between items-center w-1/3">
             <div class="mx-4 my-2">
                 <a href='#'><img class="w-10" src="../assets/images/gogLogo.png"></a>
@@ -45,12 +46,42 @@
             <ion-icon name="search-outline" class="mx-4 text-white cursor-pointer"></ion-icon>
             </div>
         </div>
-      </nav>
+    </nav>
 
     <main>
-        <div class="products">
-
-        </div>
+        <section class="slider">
+            <div class="slider-content">
+            
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+    
+                <div class="slide-box primeiro">
+                    <img src="../assets/images/huntshowdown.png" alt="Hunt Showdown">
+                </div>
+    
+                <div class="slide-box">
+                    <img src="../assets/images/metroexodus.png" alt="Metro Exodus">
+                </div>
+    
+                <div class="slide-box">
+                    <img src="../assets/images/reddead.png" alt="Red dead redemption 2">
+                </div>
+    
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+    
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+    
+            </div>
+        </section>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
