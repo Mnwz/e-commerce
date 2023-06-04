@@ -11,38 +11,42 @@
     <title>E-commerce</title>
 </head>
 <body>
-    <nav class="flex justify-between items-center w-full">
-        <div class="mx-4 my-2">
-            <a class=""><img class="w-10" src="../assets/images/gogLogo.png"></a>
-        </div>
-        <div class="color-white">
-            <ul class="flex justify-center items-center">
-                <li class="mx-4"><a href="#">Store</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
-        <div class="text-2xl">
-          <ion-icon name="cart-outline" class="mx-4"></ion-icon>
-          <ion-icon name="search-outline" class="mx-4"></ion-icon>
-        </div>
-      </nav>
-    <!-- <nav>
-        <div class="logo">
-        <img src="../assets/images/gogLogo.png">
-        </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="#">Store</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            <div class="nav-right">
-                <ion-icon name="cart-outline"></ion-icon>
-                <ion-icon name="search-outline"></ion-icon>
+    <nav class="flex justify-center items-center w-full fixed">
+        <div class="flex justify-between items-center w-1/3">
+            <div class="mx-4 my-2">
+                <a href='#'><img class="w-10" src="../assets/images/gogLogo.png"></a>
+            </div>
+            <div class="text-white">
+                <ul class="flex justify-center items-center">
+                    <li class="mx-4">
+                        <div class="dropdown relative inline-block">
+                            <button class="dropbtn">STORE</button>
+                            <div class="dropdown-content hidden absolute z-10 text-black bg-white">
+                              <a href="#" class="block">Tiro</a>
+                              <a href="#" class="block">Ação</a>
+                              <a href="#" class="block">Luta</a>
+                              <a href="#" class="block">Futebol</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown relative inline-block">
+                            <button class="dropbtn">ABOUT</button>
+                            <div class="dropdown-content hidden absolute z-10 text-black bg-white">
+                              <a href="#" class="block">Gog.com</a>
+                              <a href="#" class="block">Gog Galaxy</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="text-2xl">
+            <ion-icon name="cart-outline" class="mx-4 text-white cursor-pointer"></ion-icon>
+            <ion-icon name="search-outline" class="mx-4 text-white cursor-pointer"></ion-icon>
             </div>
         </div>
-    </nav> -->
+      </nav>
+
     <main>
         <div class="products">
 
