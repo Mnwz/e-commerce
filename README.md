@@ -4,7 +4,7 @@
 
 <h2>Description</h2>
 
-This GitHub project is a web application for an e-commerce website. It provides a platform for users to browse and purchase products online. The website features a responsive design and utilizes popular web technologies such as HTML, CSS, and JavaScript. The user interface includes a navigation bar, a hero section for promotional content, and a product listing section.
+This GitHub project is a web application for an e-commerce website. It provides a platform for users to browse and purchase products online. The website features a responsive design and utilizes popular web technologies such as HTML, CSS, JavaScript and Tailwind. The user interface includes a navigation bar, a hero section for promotional content, and a product listing section.
 Features
 
     Responsive design for optimal viewing on different devices.
@@ -19,6 +19,7 @@ To run the project locally, follow these steps:
 
     Clone the repository: git clone [repository URL]
     Open the project folder in your preferred code editor.
+    Use npm install.
     Launch the index.html file in a web browser.
 
 <h2>Usage</h2>
