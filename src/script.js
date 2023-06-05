@@ -16,5 +16,3 @@ function proximaImg() {
 
   document.querySelector("#radio" + cont).checked = true;
 }
-
-getPost();

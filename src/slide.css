@@ -1,70 +1,82 @@
+.slider {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
 
-.slider{
-    width: 100vw;
-    height: auto;
-    overflow: hidden;
+  margin-bottom: 100px;
 }
 
-.slider-content{
-    width: 400%;
-    height: auto;
-    display: flex;
+.slider-content {
+  width: 400%;
+  height: 450px;
+  display: flex;
+  box-shadow: inset 0 -10px #ffffff;
+
+  margin-top: 30px;
 }
 
-.slider-content input{
-    display: none;
+.slider-content input {
+  display: none;
 }
 
-.slide-box{
-    width: 25%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    transition: 1s;
+.slide-box {
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  transition: 1s;
+
+  display: flex;
+  justify-content: center;
 }
 
-.slide-box img{
-    width: 100%;
-    height: 450px;
-    object-fit: contain;
+.slide-box img {
+  width: 70%;
+  height: 450px;
+  border-radius: 15px;
 }
 
-.nav-manual, .nav-auto{
-    position: absolute;
-    width: 100%;
-    top: 480px;
-    display: flex;
-    justify-content: center;
+.nav-manual,
+.nav-auto {
+  position: absolute;
+  width: 100%;
+  top: 480px;
+  display: flex;
+  justify-content: center;
 }
 
-.nav-manual .manual-btn, .nav-auto div{
-    border: 1px solid #fff;
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 1s;
+.nav-manual .manual-btn,
+.nav-auto div {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 1s;
 }
 
-.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
-    margin-right: 10px;
+.nav-manual .manual-btn:not(:last-child),
+.nav-auto div:not(:last-child) {
+  margin-right: 10px;
 }
 
-.nav-manual .manual-btn:hover{
-    background-color: #1a1a1ae6;
+.nav-manual .manual-btn:hover {
+  background-color: #1a1a1ae6;
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1, #radio2:checked ~ .nav-auto .auto-btn2, #radio3:checked ~ .nav-auto .auto-btn3{
-    background-color: #1a1a1ae6;
+#radio1:checked ~ .nav-auto .auto-btn1,
+#radio2:checked ~ .nav-auto .auto-btn2,
+#radio3:checked ~ .nav-auto .auto-btn3 {
+  background-color: #1a1a1ae6;
 }
 
-#radio1:checked ~ .primeiro{
-    margin-left: 0%;
+#radio1:checked ~ .primeiro {
+  margin-left: 0%;
 }
 
-#radio2:checked ~ .primeiro{
-    margin-left: -25%;
+#radio2:checked ~ .primeiro {
+  margin-left: -25%;
 }
 
-#radio3:checked ~ .primeiro{
-    margin-left: -50%;
+#radio3:checked ~ .primeiro {
+  margin-left: -50%;
 }

@@ -1,203 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="slide.css" />
     <title>E-commerce</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="flex justify-center items-center w-full">
-        <div class="flex justify-between items-center w-1/3">
-            <div class="mx-4 my-2">
-                <a href='#'><img class="w-10" src="../assets/images/gogLogo.png"></a>
-            </div>
-            <div class="text-white">
-                <ul class="flex justify-center items-center">
-                    <li class="mx-4">
-                        <div class="dropdown relative inline-block">
-                            <button class="dropbtn">STORE</button>
-                            <div class="dropdown-content hidden absolute z-10 text-black bg-white">
-                              <a href="#" class="block">Tiro</a>
-                              <a href="#" class="block">Ação</a>
-                              <a href="#" class="block">Luta</a>
-                              <a href="#" class="block">Futebol</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="dropdown relative inline-block">
-                            <button class="dropbtn">ABOUT</button>
-                            <div class="dropdown-content hidden absolute z-10 text-black bg-white">
-                              <a href="#" class="block">Gog.com</a>
-                              <a href="#" class="block">Gog Galaxy</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="text-2xl">
-            <ion-icon name="cart-outline" class="mx-4 text-white cursor-pointer"></ion-icon>
-            <ion-icon name="search-outline" class="mx-4 text-white cursor-pointer"></ion-icon>
-            </div>
+      <div class="flex justify-between items-center w-1/3">
+        <div class="mx-4 my-2">
+          <a href="#"
+            ><img class="w-10" src="../assets/images/gogLogo.png"
+          /></a>
         </div>
+        <div class="text-white">
+          <ul class="flex justify-center items-center">
+            <li class="mx-4">
+              <div class="dropdown relative inline-block">
+                <button class="dropbtn">STORE</button>
+                <div
+                  class="dropdown-content hidden absolute z-10 text-black bg-white"
+                >
+                  <a href="#" class="block">Tiro</a>
+                  <a href="#" class="block">Ação</a>
+                  <a href="#" class="block">Luta</a>
+                  <a href="#" class="block">Futebol</a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="dropdown relative inline-block">
+                <button class="dropbtn">ABOUT</button>
+                <div
+                  class="dropdown-content hidden absolute z-10 text-black bg-white"
+                >
+                  <a href="#" class="block">Gog.com</a>
+                  <a href="#" class="block">Gog Galaxy</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="text-2xl">
+          <ion-icon
+            name="cart-outline"
+            class="mx-4 text-white cursor-pointer"
+          ></ion-icon>
+          <ion-icon
+            name="search-outline"
+            class="mx-4 text-white cursor-pointer"
+          ></ion-icon>
+        </div>
+      </div>
     </header>
 
     <main>
-        <div class="slider bg-[#1a1a1a]">
-            <div class="slider-content">
-            
-                <input type="radio" name="btn-radio" id="radio1">
-                <input type="radio" name="btn-radio" id="radio2">
-                <input type="radio" name="btn-radio" id="radio3">
-    
-                <div class="slide-box primeiro">
-                    <img src="../assets/images/huntshowdown.png" alt="Hunt Showdown">
-                </div>
-    
-                <div class="slide-box">
-                    <img src="../assets/images/metroexodus.png" alt="Metro Exodus">
-                </div>
-    
-                <div class="slide-box">
-                    <img src="../assets/images/reddead.png" alt="Red dead redemption 2">
-                </div>
-    
-                <div class="nav-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-                </div>
-    
-                <div class="nav-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                </div>
-    
-            </div>
-        </div>
-        
-        <div class="container-games flex flex-wrap w-9/12 text-center m-auto">
+      <div class="slider bg-[#1a1a1ae6]">
+        <div class="slider-content">
+          <input type="radio" name="btn-radio" id="radio1" />
+          <input type="radio" name="btn-radio" id="radio2" />
+          <input type="radio" name="btn-radio" id="radio3" />
 
-            <div class="games w-2/6">
-                <div class="products">
-                    <h2 id="title3"></h2>
-                    <div class="products-content">
-                        <div class="cart-price flex items-center justify-center">
-                            <ion-icon name="cart-outline" class="mx-4 cursor-pointer text-white"></ion-icon>
-                            <span id="price3"></span>
-                        </div>
-                        <img id='img3' alt="Sekiro Shadows Die Twice">
-                    </div>
-                </div>
-            </div>
-            <div class="games w-2/6">
-                <div class="products">
-                    <h2 id="title4"></h2>
-                    <div class="products-content">
-                        <div class="cart-price">
-                            <ion-icon name="cart-outline" class="mx-4 cursor-pointer text-white"></ion-icon>
-                            <span id="price4"></span>
-                        </div>
-                        <img id='img4' alt="Street Fighter 6">
-                    </div>
-                </div>
-            </div>
-            <div class="games w-2/6">
-                <div class="products">
-                    <h2 id="title5"></h2>
-                    <div class="products-content">
-                        <div class="cart-price">
-                            <ion-icon name="cart-outline" class="mx-4 cursor-pointer text-white"></ion-icon>
-                            <span id="price5"></span>
-                        </div>
-                        <img id='img5' alt="Destiny 2">
-                    </div>
-                </div>
-            </div>
-            <div class="games w-2/6">
-                <div class="products">
-                    <h2 id="title6"></h2>
-                    <div class="products-content">
-                        <div class="cart-price">
-                            <ion-icon name="cart-outline" class="mx-4 cursor-pointer text-white"></ion-icon>
-                            <span id="price6"></span>
-                        </div>
-                        <img id='img6' alt="Call of duty: Modern Warfare II">
-                    </div>
-                </div>
-            </div>
-            <div class="games w-2/6">
-                <div class="products">
-                    <h2 id="title7"></h2>
-                    <div class="products-content">
-                        <div class="cart-price">
-                            <ion-icon name="cart-outline" class="mx-4 cursor-pointer text-white"></ion-icon>
-                            <span id="price7"></span>
-                        </div>
-                        <img id='img7' alt="Elden Ring">
-                    </div>
-                </div>
-            </div>
-            <div class="games w-2/6">
-                <div class="products">
-                    <h2 id="title8"></h2>
-                    <div class="products-content">
-                        <div class="cart-price">
-                            <ion-icon name="cart-outline" class="mx-4 cursor-pointer text-white"></ion-icon>
-                            <span id="price8"></span>
-                        </div>
-                        <img id='img8' alt="EA Sports FIFA 23">
-                    </div>
-                </div>
-            </div>
-            <div class="games w-2/6">
-                <div class="products">
-                    <h2 id="title9"></h2>
-                    <div class="products-content">
-                        <div class="cart-price">
-                            <ion-icon name="cart-outline" class="mx-4 cursor-pointer text-white"></ion-icon>
-                            <span id="price9"></span>
-                        </div>
-                        <img id='img9' alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="games w-2/6">
-                <div class="products">
-                    <h2 id="title10"></h2>
-                    <div class="products-content">
-                        <div class="cart-price">
-                            <ion-icon name="cart-outline" class="mx-4 cursor-pointer text-white"></ion-icon>
-                            <span id="price10"></span>
-                        </div>
-                        <img id='img10' alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="games w-2/6">
-                <div class="products">
-                    <h2 id="title11"></h2>
-                    <div class="products-content">
-                        <div class="cart-price">
-                            <ion-icon name="cart-outline" class="mx-4 cursor-pointer text-white"></ion-icon>
-                            <span id="price11"></span>
-                        </div>
-                        <img id='img11' alt="">
-                    </div>
-                </div>
-            </div>
+          <div class="slide-box primeiro rounded-md relative">
+            <img src="../assets/images/huntshowdown.png" alt="Hunt Showdown" />
+          </div>
+
+          <div class="slide-box">
+            <img src="../assets/images/metroexodus.png" alt="Metro Exodus" />
+          </div>
+
+          <div class="slide-box">
+            <img
+              src="../assets/images/reddead.png"
+              alt="Red dead redemption 2"
+            />
+          </div>
+
+          <div class="nav-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+
+          <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+          </div>
         </div>
+      </div>
+
+      <div
+        class="container-games flex flex-wrap w-9/12 text-center m-auto"
+      ></div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-    <script src="games.js"></script>
-</body>
+    <script type="module" src="games.js"></script>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+  </body>
 </html>
