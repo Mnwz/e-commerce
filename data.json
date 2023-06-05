@@ -22,7 +22,7 @@
       "id": 3
     },
     {
-      "title": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "title": "Sekiro™: Shadows Die Twice",
       "description": "Jogo do Ano - The Game Awards 2019 Melhor Jogo de Ação de 2019 - IGN Trilhe seu próprio caminho de vingança nesta premiada aventura da FromSoftware, os criadores de Bloodborne e da franquia Dark Souls. Obtenha vingança. Retome sua honra. Mate astuciosamente. ",
       "price": "199.90",
       "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg?t=1678991267",
@@ -38,7 +38,7 @@
     {
       "title": "Destiny 2",
       "description": "Destiny 2 é um MMO de ação com um mundo único em evolução, que se pode jogar a qualquer hora e em qualquer lugar com os amigos, inteiramente de graça.",
-      "price": "00.00",
+      "price": "Gratuito",
       "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/1085660/header_brazilian.jpg?t=1684966156",
       "id": 6
     },
@@ -69,6 +69,20 @@
       "price": "38.63",
       "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg?t=1678296348",
       "id": 10
+    },
+    {
+      "title": "PUBG: BATTLEGROUNDS",
+      "description": "Jogue PUBG: BATTLEGROUNDS de graça. Pouse em locais estratégicos, saqueie armas e suprimentos e sobreviva para se tornar a última equipe de pé nos mais variados campos de batalha.",
+      "price": "Gratuito",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg?t=1684838697",
+      "id": 11
+    },
+    {
+      "title": "Black Desert Online",
+      "description": "Um MMORPG à frente do seu tempo, com gráficos mais vivos e áudio mais realista. Batalhas e guerras, exploração e comércio, Pesca, treinamento, alquimia, culinária, coleta, caça e muito mais! Um mundo aberto com muitas possibilidades para você desfrutar. Black Desert, um MMORPG de Verdade!",
+      "price": "17.46",
+      "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/582660/header_alt_assets_22.jpg?t=1685067790",
+      "id": 12
     }
   ]
 }

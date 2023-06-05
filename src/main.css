@@ -1,15 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-nav {
-    background-color: #1a1a1ae6;
+header {
+  background-color: #1a1a1ae6;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.games {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  margin: auto;
+  color: white;
+}
+
+.products {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+
+  margin: 10px;
+}
+
+.products-content {
+  width: 100%;
+}
+
+.products {
+  box-shadow: rgba(0, 0, 0, 0.54) 0px 3px 8px;
+}
