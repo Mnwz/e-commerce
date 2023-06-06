@@ -44,3 +44,10 @@ header {
 .products {
   box-shadow: rgba(0, 0, 0, 0.54) 0px 3px 8px;
 }
+
+/* -------------- Vai ser o hover dos produtos ------------------- */
+
+
+.games:hover {
+  scale: 1.5;
+}

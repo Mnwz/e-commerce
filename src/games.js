@@ -14,15 +14,14 @@ const getGamersFromApi = async () => {
   
   */
 
-    for (let i = 0; i < 3; i++) {
-      console.log(data[i].title);
-    }
-
     data.map((game, index) => {
       if (index > 2) {
         const productGames = document.createElement("div");
 
-        productGames.setAttribute("class", "games w-3/12 my-10");
+        productGames.setAttribute(
+          "class",
+          "games ease-in duration-500 w-3/12 my-5"
+        );
 
         productGames.innerHTML = `
         
@@ -37,12 +36,19 @@ const getGamersFromApi = async () => {
                   <div
                     class="cart-price flex flex-col justify-center gap-5 text-white"
                   >
-                    <h2 id="title3" class="text-xs text-left m-2"> ${game.title}</h2>
+                    <h2 id="title3" class="text-xs text-left m-2"> ${
+                      game.title
+                    }</h2>
+                    <h1 class='description hidden'> ${game.description} </h1>
                     <!-- <ion-icon
                       name="cart-outline"
                       class="mx-4 cursor-pointer text-white"
                     ></ion-icon> -->
-                    <span id="price3" class="text-xs text-right mx-2">${game.price}</span>
+                    <span id="price3" class="text-ls text-right mx-2"> ${
+                      game.price === "Gratuito"
+                        ? "Gratuito"
+                        : "R$ " + game.price
+                    }</span>
                   </div>
                 </div>
               </div>
