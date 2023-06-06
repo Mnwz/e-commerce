@@ -6,10 +6,10 @@ POST http://localhost:3000/games HTTP/1.1
 Content-Type: application/json
 
 {
-    "title": "PUBG: BATTLEGROUNDS",
-    "description": "Jogue PUBG: BATTLEGROUNDS de graça. Pouse em locais estratégicos, saqueie armas e suprimentos e sobreviva para se tornar a última equipe de pé nos mais variados campos de batalha.",
-    "price": "38.63",
-    "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/578080/header.jpg?t=1684838697"
+    "title": "Dragon's Dogma: Dark Arisen",
+    "description": "Em um incrível mundo aberto, Dragon’s Dogma: Dark Arisen apresenta um dos melhores sistemas de combate.  ",
+    "price": "74.99",
+    "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/367500/header.jpg?t=1644282366"
 }
 
 ###
