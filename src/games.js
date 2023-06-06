@@ -20,8 +20,22 @@ const getGamersFromApi = async () => {
 
         productGames.setAttribute(
           "class",
-          "games ease-in duration-500 w-3/12 my-5"
+          "games ease-in duration-500 w-3/12 my-5 relative"
         );
+
+        productGames.addEventListener("mouseover", (event) => {
+          const description = event.currentTarget.querySelector(".description");
+          const parent = event.currentTarget.querySelector(".products");
+
+          description.classList.remove("noShow");
+        });
+
+        productGames.addEventListener("mouseout", (event) => {
+          const description = event.currentTarget.querySelector(".description");
+          const parent = event.currentTarget.querySelector(".products");
+
+          description.classList.add("noShow");
+        });
 
         productGames.innerHTML = `
         
@@ -39,7 +53,7 @@ const getGamersFromApi = async () => {
                     <h2 id="title3" class="text-xs text-left m-2"> ${
                       game.title
                     }</h2>
-                    <h1 class='description hidden'> ${game.description} </h1>
+                    <p class='description noShow'> ${game.description} </p>
                     <!-- <ion-icon
                       name="cart-outline"
                       class="mx-4 cursor-pointer text-white"

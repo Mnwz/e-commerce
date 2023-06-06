@@ -47,7 +47,15 @@ header {
 
 /* -------------- Vai ser o hover dos produtos ------------------- */
 
-
 .games:hover {
   scale: 1.5;
+  z-index: 1000;
+}
+
+.noShow {
+  display: none;
+}
+
+.description {
+  font-size: 8px;
 }
